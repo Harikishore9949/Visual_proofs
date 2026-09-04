@@ -78,7 +78,7 @@ export const Panel2DivCurlGuide: React.FC<Panel2Props> = ({
       <div className="flex items-start gap-2 text-pink-900 bg-pink-50/40 p-3 rounded-2xl border border-pink-100/60">
         <Info className="w-4 h-4 text-pink-600 shrink-0 mt-0.5" />
         <p className="text-[11px] text-slate-600 leading-tight">
-          <strong className="text-pink-950">Microscopic vs Macroscopic:</strong> Integrating local point divergence over an area gives the total boundary flux ($\iint \text{div} \, dA = \oint \vec{F} \cdot \hat{n} \, ds$).
+          <strong className="text-pink-950">Microscopic vs Macroscopic:</strong> Integrating local point divergence over an area gives the total boundary flux (<MathView math="\iint_R (\nabla \cdot \vec{F}) \, dA = \oint_C \vec{F} \cdot \hat{n} \, ds" />).
         </p>
       </div>
     </div>

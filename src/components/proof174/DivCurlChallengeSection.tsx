@@ -165,7 +165,7 @@ export const DivCurlChallengeSection: React.FC = () => {
         </div>
 
         <p className="text-xs text-slate-600 font-medium leading-relaxed">
-          <strong>Maxwell's Equations:</strong> Electromagnetism is formulated entirely in terms of divergence and curl: $\nabla \cdot \vec{E} = \rho/\varepsilon_0$, $\nabla \cdot \vec{B} = 0$, and Faraday's $\nabla \times \vec{E} = -\partial\vec{B}/\partial t$.
+          <strong className="text-pink-950">Maxwell's Equations:</strong> Electromagnetism is formulated entirely in terms of divergence and curl: <MathView math="\nabla \cdot \vec{E} = \rho/\varepsilon_0" />, <MathView math="\nabla \cdot \vec{B} = 0" />, and Faraday's <MathView math="\nabla \times \vec{E} = -\partial\vec{B}/\partial t" />.
         </p>
 
         <div className="text-[11px] text-pink-800 font-semibold bg-pink-50/60 p-2.5 rounded-xl border border-pink-100/60 font-mono">
